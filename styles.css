@@ -13,7 +13,7 @@
     }
 
     header {
-        background: linear-gradient(#00137a, #011796);
+        background: #13ebff;
         width: 100%;
     }
 
@@ -29,26 +29,26 @@
     }
 
     .textoMenu {
-        color: rgb(255, 255, 255);
+        color: black;
         text-decoration: none;
         padding-inline: 1.5%;
         font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
         padding-top: 15px;
         padding-bottom: 15px;
     }
 
-    .capa{
+    .capa {
         width: 100%;
     }
 
-    .tabelaSorteioAtivo{
+    .tabelaSorteioAtivo {
         width: 80%;
         margin: auto;
     }
 
-    .tituloSorteio{
+    .tituloSorteio {
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         padding-top: 5px;
@@ -56,10 +56,72 @@
         line-height: 100%;
     }
 
-    .imagemfoguete{
+    .imagemfoguete {
         width: 50px;
+        float: right;
     }
 
+    .tabelaSorteioAtivo2 {
+        width: 90%;
+        margin: auto;
+        background-color: #13ebff;
+        border-radius: 30px;
+        box-shadow: 0 1px 7px rgb(95, 94, 94);
+    }
+
+    .tabelaSorteioAtivo2Ganhadores {
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 0 1px 7px rgb(95, 94, 94);
+        border: 2px solid #0075fc;
+    }
+
+    .descricaoSorteioAzul{
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 100%;
+        color: #0075fc;
+    }
+
+    .imagemSorteio {
+        width: 100%;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+    .descricaoSorteio {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 100%;
+    }
+
+    .descricaoSorteioMenor {
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 100%;
+    }
+
+    input{
+        padding: 2px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        border: 1px solid #0075fc;
+    }
+
+    button{
+        padding: 8px;
+        cursor: pointer;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #0075fc;
+    }
     a:hover {
         color: #0084ff;
         transition: 0.5s;
@@ -127,7 +189,7 @@
 
     .editarLink {
         text-decoration: none;
-        color: white;
+        color: black;
     }
 
     .imagemPropaganda:hover {
